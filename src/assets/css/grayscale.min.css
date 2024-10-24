@@ -1,0 +1,1182 @@
+﻿/*!
+ * Start Bootstrap - Grayscale v5.0.5 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+  #suiteBarTop {
+	display:none;
+}
+
+body {
+/*    padding-top: 3.5rem;*/
+    letter-spacing: .0625em;
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color: #fff;
+    font-size: 0.875rem;
+    -webkit-font-smoothing: antialiased; 
+    margin-right: -15px;
+}
+.navbar {
+	padding: .0rem 1rem;
+}
+
+.jumbotron {
+    margin-bottom: 0rem;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    border-radius: 0rem;
+    margin-right: -20px;
+} 
+
+
+/*
+@media (min-width: 576px){
+    .jumbotron {
+    padding: 3rem 1rem;
+}
+    
+}
+*/
+
+
+/*
+#contentRow {
+    padding-top: 19px;
+    margin-right: -30px;
+}
+*/
+
+
+.bodyspace {
+    margin: 0px 0px 10px 0px;
+    line-height: 1.6;
+}
+
+
+#mainNav {
+    min-height: 56px;
+/*    background-color: #0070AD;*/
+}
+
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: .75rem;
+    color: #64a19d;
+    border: 1px solid #64a19d
+}
+
+#mainNav .navbar-toggler:focus {
+    outline: 0
+}
+
+#mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+    padding: 0rem 0
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: 0;
+    background-color: transparent
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+    outline: 0;
+    background-color: transparent
+}
+
+@media (min-width:992px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: transparent;
+        -webkit-transition: background-color .3s ease-in-out;
+        transition: background-color .3s ease-in-out
+    }
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: rgba(255, 255, 255, .5)
+    }
+    #mainNav .nav-link {
+        -webkit-transition: none;
+        transition: none;
+        padding: 2rem 1.5rem;
+        color: #0070AD!important;
+    }
+   
+}
+
+.bg-black {
+    background-color: rgba(0,0,0,.03)!important;
+    margin-right: -20px;
+}
+
+
+
+
+/*Rakesh CSS start here*/
+
+.navbar-nav .dropdown-menu{
+    top: 65%;
+    left: 22px;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover {background-color: #12abdb; color:#fff;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+h1{
+    font-size: 21px;
+}
+
+.projects-section {
+    padding: 1.5rem 0;
+}
+
+.toptext{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.section-head{
+    font-weight: 600;
+    color: #343388;
+}
+
+.body-head{
+    font-weight: 600;
+    color: #EA6533;
+}
+    
+.hightlight{
+    color: #EA6533;
+}
+    
+.body-color{
+    color: #EA6533;
+}
+
+.subhead{
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+.subhead2{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.subhead3{
+    font-size: 14px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+.card {
+    height: 100%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+.card-header{
+    border: none;
+    background-color: #0070AD;
+    padding: 0 1.25rem;
+}
+
+.card-header .btn {
+    font-weight: 400;
+    color: #fff;
+    padding: 0rem 0rem;
+}
+
+.card-header h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .52rem .75rem;
+    margin-bottom: 0px;
+}
+
+.card-header h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .52rem .75rem;
+}
+
+.card-header h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .75rem .75rem;
+}
+
+.card-header h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .75rem .75rem;
+}
+
+.card-btn{
+    background-color: #0070ad;
+    border-radius: 80px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+*/
+
+.new-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 45%;
+    clear: both;
+}
+
+.new-box-content textarea{
+    width: 70%;
+    margin-left: 15px;
+}
+.new-box-content .post {
+    width: 15%;
+    vertical-align: top;
+    margin-top: 6px;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    text-align: center;
+    color: #fff;
+    padding: 4px;
+    margin-bottom: 10px;
+} 
+
+.card-vd{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.bottom-head{
+    font-weight: 600;
+    color: #EA6533;
+}
+
+.form-align{
+    clear: left;
+    margin: auto;
+}
+
+
+
+/*  Azure CSS....................................................................................*/
+
+.bitfont{
+    font-weight: 600;
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+
+.text-primary {
+		color: #0070AD!important;
+	}
+	
+
+	
+.banner-text{
+    padding: 0px 0px;
+    color: #15596B!important;
+}
+
+	.skill-header{
+		font-weight:bold;
+		padding-bottom: 5px;
+		border-bottom:1px solid #888;
+	}
+
+.sub-skill-header{
+/*    display: flex;*/
+    border-bottom:1px solid #888;
+}
+
+.sub-skill-header p{
+    font-weight:bold;
+		padding: 5px 0px;
+    margin-bottom: 0;
+}
+
+.documents{
+    text-align: left;
+}
+	
+.documents i{
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+
+.dwnld-section{
+    display: flex;
+}
+
+.contact .table {
+    width: 75%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.comment-box .form-cmnt{
+    width: 70;
+}
+
+.comment-box{
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comment-post input {
+    overflow: visible;
+    margin-top: 10px;
+    float: right;
+    border-radius: 50px;
+    width: 130px;
+    text-align: center;
+    background-color: #08779a;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    margin-right: 45px;
+}
+
+.comment-box h5{
+    color: red;
+    text-align: left;
+}
+
+
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dee2e6;
+}
+
+	.prof-expert{
+		background-color:#0070AD;
+		color: #fff;
+		padding: 13px ;
+        margin-top: 7px;
+        height: 180px
+	}	
+	
+	.prof-intermediate{
+		background-color:#13ABDC;
+		color: #fff;
+		padding: 8px;
+		height: 180px;
+        margin-top: 7px;
+	}	
+	
+	.prof-beginner{
+		background-color:#5FC2E1;
+		color: #fff;
+		padding: 8px;
+		height: 180px;
+        margin-top: 7px;
+	}
+	
+	.role-desc{
+		background-color:#F2F2F2;
+		color: #404040;
+		
+		text-align:left;
+		font-size:12px;
+		
+	}
+	.role-desc ol, ul {
+		padding-left:20px;
+		margin-top: 1rem;
+	}
+	
+	.apps-role{
+		background-color:#0070AD;
+		color: #fff;
+		
+		text-align:left;
+		font-size:12px;
+		
+	}
+	.apps-role ol, ul {
+		padding-left:20px;
+		margin-top: 1rem;
+	}
+	
+	.infra-role{
+		background-color:#13ABDC;
+		color: #fff;
+		
+		text-align:left;
+		font-size:12px;
+		
+	}
+	.infra-role ol, ul {
+		padding-left:20px;
+		margin-top: 1rem;
+	}
+	
+	.data-role{
+		background-color:#5FC2E1;
+		color: #fff;
+		text-align:left;
+		font-size:12px;
+		
+	}
+	.data-role ol, ul {
+		padding-left:20px;
+		margin-top: 1rem;
+	}
+
+
+/*  my  ..........................................................................................................*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-2{
+    position: relative;
+    width: 100%;
+     padding-right: 15px; 
+    padding-left: 15px;
+}
+
+.documents .doc-1st{
+   margin-top: 15px;
+}
+
+.azure-2{
+/*
+    background-image: url(../5.png);
+    background-size: cover;
+*/
+    background-color: #95E616;
+    background-size: cover;
+    margin-right: -20px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .comment-post input {
+        width: 90px;
+        margin-right: 0px;
+    }
+    .comment-box .form-cmnt{
+    width: 100%;
+    }
+    .comment-box{
+    width: 100%;
+    }
+  }
+.navbar-nav a{
+    font-size: 1rem;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #007bff;
+}
+.dropdown-menu a:hover {
+    background-color: #12abdb;
+    color: #fff !important;
+}
+@media screen and (max-width: 1550px) and (min-width: 768px) {
+  .jumbotron {
+      
+      background-position: top;
+  }
+}
+
+.banner-text img{
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+.link-hint{
+    font-weight: 100;
+    float: right;
+    font-size: 12px;
+}
+.info-link{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.clm-4 .col-md-4{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.clm-4 .col-md-2{
+    padding-right: 4px;
+}
+.for-clm-4{
+    padding-top: 21px;
+}
+.testimonial .t-content{
+    font-size: 16px;
+}
+
+/*.................         Owl-Carousel        ................................................................................*/
+
+.owl-carousel .owl-nav button.owl-prev {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    color: #fff;
+    width: 30px;
+    
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    color: #fff;
+    width: 30px;
+}
+
+.fa-2x {
+    font-size: 25px;;
+}
+
+.skillpath-use{
+    background-color: #E4D4FF;
+    width: 101.5%;
+}
+.use-skill-title{
+    font-size: 27px;
+    color: #4F357C;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.use-skill-text{
+    font-size: 16px;
+    color: #4F357C;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-three{
+    border-top: 7px solid #4F357C;
+    padding: 8px 15px;
+}
+.card-three-coming{
+    font-size: 12px;
+    background-color: #0070AD;
+    color: #fff;
+    padding: 3px 5px;
+    width: fit-content;
+    border-radius: 10px;
+}
+	
+
+/*   forum ...........................................................................................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer CSS starts here*/
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #2B0A3D;
+    margin-right: -20px;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  color: #fff;
+}
+
+.foothead {
+    background-color: #fff;
+    padding: 6px;
+    width: 268px;
+}
+
+/*Footer CSS ends here*/
+
+
+/* ................... Quiz Button  .................  */
+
+.quiz-section{
+    background-color: #543EBE;
+}
+.quiz{
+    display: flex;
+    padding: 5px;
+}
+.quiz-text{
+    margin: 22px 0px;
+    color: #fff;
+}
+
+/*
+.quiz .btn-lg{
+    background-color: #00c37b;
+    color: #fff;
+    padding: 0px 35px;
+    margin: 9px 0px;
+}
+*/
+.qz-btn .btn-lg{
+    background-color: #00c37b;
+    color: #fff;
+    padding: 17px 35px;
+    margin: 9px 0px;
+}
+.qz-btn .btn-lg:hover{
+    background-color: #fff;
+    color: #00c37b;
+    transition: .8s;
+}
+.quiz .btn-sm{
+    background-color: #ff6327;
+    color: #fff;
+    padding:5px 10px 0px 10px;
+    margin: 9px 0px;
+    height: 63px;
+}
+.quiz .btn-sm .fas{
+    font-size: 24px;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+.quiz .qz-btn{
+    display: flex!important;
+}
+
+/* -------------------------- index-roles ----------------------------------  */
+
+.roles-button{
+    border: 2px solid #21b9e4;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.index-row-roles{
+    border: 1px solid #21b9e4;
+    border-radius: 10px;
+    border-left: 4px solid #21b9e4;
+    border-right: 4px solid #21b9e4;
+    border: 1px solid #21b9e4(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.index-roles .jva{
+    border: 1px solid #EC191D;
+    border-left: 4px solid #EC191D;
+    border-right: 4px solid #EC191D;
+}
+.index-roles .pga{
+    border: 1px solid #00A4A9;
+    border-left: 4px solid #00A4A9;
+    border-right: 4px solid #00A4A9;
+}
+.index-roles .slsf{
+    border: 1px solid #189CD8;
+    border-left: 4px solid #189CD8;
+    border-right: 4px solid #189CD8;
+}
+.index-roles .azr{
+    border: 1px solid #018AD5;
+    border-left: 4px solid #018AD5;
+    border-right: 4px solid #018AD5;
+}
+.index-roles .aws{
+    border: 1px solid #F79629;
+    border-left: 4px solid #F79629;
+    border-right: 4px solid #F79629;
+}
+.index-roles .orang{
+    border: 1px solid #F79629;
+    border-left: 4px solid #F79629;
+    border-right: 4px solid #F79629;
+}
+.index-roles .jva li{
+    border-left: 3px solid #EC191D;
+}
+.index-roles .pga li{
+    border-left: 3px solid #00A4A9;
+}
+.index-roles .slsf li{
+    border-left: 3px solid #189CD8;
+}
+.index-roles .azr li{
+    border-left: 3px solid #018AD5;
+}
+.index-roles .aws li{
+    border-left: 3px solid #F79629;
+}
+.index-roles .row{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0.72rem;
+}
+.index-roles .col-md-4{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.index-roles .col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.index-roles .row-col-1 b{
+    font-size: 0.82rem;
+}
+.index-row-box{
+    padding: 8px 0px;
+    margin: 0px 15px;
+}
+.index-row-roles ul{
+    margin-left: 20px;
+    color: #007bff;
+}
+.index-row-roles li {
+    color: black;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-left: 3px solid #007bff;
+    padding: 3px 0px 3px 5px;
+}
+.multi .row-col-1{
+    margin-top: 20px;
+}
+.single .row-col-1{
+    margin-top: 20px;
+}
+.single{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* -------------------------------- index-roles-2 ---------------------------------------------- */
+
+
+.nav-roles{
+        width: 200px;
+    text-align: center;
+    border: 1px solid #0070AD;
+    color: #0070AD;
+}
+.nav-roles:hover{
+    color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0070AD;
+}
+
+/* ----------------------------------------Skill-based-page------------------------------------------ */
+    
+.skill-base-head{
+  color: #343388;
+  font-size: 30px;
+    font-weight: 600;
+}
+
+/* ---------------- new-choose-section ---------------------- */
+
+.new-choose-section .card{
+    border: 2px solid #979797;
+}
+.new-choose-section .card-header{
+    background-color: transparent;
+    color: #EA6533;
+    font-size: 20px;
+    border-bottom: none;
+    text-align: center;
+}
+.new-choose-section .box-fifty{
+    color: #0070AD;
+    background-color: #E5F1F7;
+    border: 1px solid #0070AD;
+    padding: 2px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    width: 170px;
+    transition: width .5s;
+}
+.new-choose-section .card-footer {
+    padding: .85rem 1.25rem;
+    color: #fff;
+    background-color: #014994;
+    border-top:none;
+    font-size: 20px;
+}
+
+.new-choose-section .card:hover .box-fifty{
+    width: 205px;
+}
+.new-choose-section a {
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+}
+.new-choose-section .card:hover {
+    border: 2px solid #0070AD;
+}
+.new-choose-section .fas{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: 1s;
+}
+/*-------------------------- career-roadmap -------------------------------*/
+
+.skill-base-green-head{
+    color: #282681;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #97E919;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.head-in-accordian{
+    font-size: 16px;
+    background-color: #00ABEB;
+    color: #fff;
+    padding: 5px;
+}
+.roadmap li{
+    font-size: 12px;
+}
+.rm-row-head{
+    font-size: 16px;
+    color: #0070AD;
+    font-weight: 600;
+}
+
+/* ----------- new-nav-tabs -------------------------- */
+    
+.new-tab-sap{
+    width: 58%;    
+}
+.new-tab-sap-2{
+    width: 45%;
+    float: right;
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 10px 5px;
+    color:#4F357C;
+    background:#fff;
+    border-radius:0;
+}
+.new-tab-sap .nav-tabs a:hover{
+    background-color: #4F357C!important;
+    color: #fff!important;
+    border-radius: 10px;
+}
+#tile-1 .new-tab-sap .nav-tabs .active{
+    color: #fff!important;
+    background-color: #4F357C!important;
+    border-radius: 10px;
+}
+.new-tab-sap-2 .nav-tabs a:hover{
+    background-color: #4F357C!important;
+    color: #fff!important;
+    border-radius: 10px;
+}
+#tile-1 .new-tab-sap-2 .nav-tabs .active{
+    color: #fff!important;
+    background-color: #4F357C!important;
+    border-radius: 10px;
+}
+
+/* ---------------------------------------------------- Sap ----------------------------------------------------------- */
+
+.sap-ul ul{
+    padding-left: 20px;
+    margin-top: .4rem;
+}
+.roles-inner-head-sap{
+    font-size: 16px;
+    padding-left: 5px;
+}
+#nav-home-new-2 .prof-expert{
+    height: 220px;
+}
+#nav-profile-new-2 .prof-beginner{
+    height: 275px;
+}
+#nav-profile-new-2 .prof-intermediate{
+    height: 215px;
+}
+#nav-profile-new-2 .prof-expert{
+    height: 220px;
+}
+#nav-contact-new-2 .prof-beginner{
+    height: 710px;
+}
+#nav-contact-new-2 .prof-intermediate{
+    height: 575px;
+}
+#nav-contact-new-2 .prof-expert{
+    height: 575px;
+}
+#nav-about-new-2 .prof-beginner{
+    height: 250px;
+}
+#nav-about-new-2 .prof-intermediate{
+    height: 215px;
+}
+#nav-about-new-2 .prof-expert{
+    height: 315px;
+}
+#nav-message-new-2 .prof-beginner{
+    height: 290px;
+}
+#nav-message-new-2 .prof-intermediate{
+    height: 290px;
+}
+#nav-message-new-2 .prof-expert{
+    height: 290px;
+}
+
+/* ------------------------------------------------------------ new-craousel ------------------------------------------------------------------- */
+
+.carousel-indicators {
+     position: unset; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li {
+    background-color: #2B0A3D;
+    text-indent: 0;
+    border-color: #2B0A3D;
+    width: 100px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: .5rem;
+}
+.carousel-control-next:hover {
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background-color: black;
+    opacity: .9;
+}
+.carousel-control-next{
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background-color: black;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: auto;
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.carousel-control-next {
+    right: 3px;
+}
+.carousel-control-prev:hover {
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background-color: black;
+    opacity: .9;
+}
+.carousel-control-prev{
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background-color: black;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: auto;
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 3px 0 0 3px;
+    user-select: none;
+}
+.carousel-control-prev {
+    left: 3px;
+}
+.carousel-indicators li {
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 5px 5px 25px 5px;
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .carousel-control-next {
+        padding: 15px 5px;
+    }
+    .carousel-control-prev {
+        padding: 15px 5px;
+    }
+    .carousel-indicators li {
+    padding: 2px 5px 25px 5px;
+        width: 80px;
+}
+}
+@media (max-width: 767px) and (min-width: 477px){
+    .carousel-control-next-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .carousel-control-prev-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .carousel-control-next {
+        padding: 16px 5px;
+    }
+    .carousel-control-prev {
+        padding: 16px 5px;
+    }
+    .carousel-indicators li {
+    padding: 2px 2px 20px 2px;
+        width: 75px;
+        font-size: 14px;
+}
+}
+@media (max-width: 476px) and (min-width: 411px){
+    .carousel-control-next-icon{
+        width: 16px;
+        height: 15px;
+    }
+    .carousel-control-prev-icon{
+        width: 16px;
+        height: 15px;
+    }
+    .carousel-control-next {
+        padding: 14px 3px;
+    }
+    .carousel-control-prev {
+        padding: 14px 3px;
+    }
+    .carousel-indicators li {
+    padding: 3px 3px 20px 3px;
+        font-size: 12px;
+}
+}
+@media (max-width: 410px) and (min-width: 300px){
+    .carousel-control-next-icon{
+        width: 15px;
+        height: 13px;
+    }
+    .carousel-control-prev-icon{
+        width: 15px;
+        height: 13px;
+    }
+    .carousel-control-next {
+        padding: 13px 3px;
+    }
+    .carousel-control-prev {
+        padding: 13px 3px;
+    }
+    .carousel-indicators li {
+    padding: 2px 5px 15px 5px;
+        font-size: 10px;
+}
+}
+
+/* ---------- home-video section --------------- */
+
+.h-vid-text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #300846;
+    padding: 10px;
+    text-align: center;
+}

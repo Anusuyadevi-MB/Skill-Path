@@ -1,0 +1,476 @@
+.col-carousel {
+	margin: 70px 0;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+
+.roles a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.roles li{
+    color: #fff;
+    background-color: #ffffff30;
+    margin-bottom: 8px;
+    border-left: 3px solid #fff;
+    padding: 3px 0px 3px 5px;
+}
+
+
+
+
+
+/*................................................. (6 horizontal tab)  ...........................................................*/
+
+
+
+
+
+
+.faq-nav {
+    flex-direction: column;
+    margin: 0 0 32px;
+    border-radius: 2px;    
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    
+    .nav-link {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 13px 16px;
+        background-color: #fff;
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0;
+        color: #616161;
+        transition: background-color .2s ease;
+        
+        &:hover {
+            background-color: #f6f6f6;
+        }
+        
+        &.active {
+            background-color: #f6f6f6;
+            font-weight: 700;
+            color: rgba(0,0,0,.87);        
+        }
+        
+        &:last-of-type {
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border-bottom: 0;
+        }
+        
+        i.mdi {
+            margin-right: 5px;
+            font-size: 18px;
+            position: relative;
+        }
+}
+}
+
+
+.tab-content {
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    
+    .card {
+        border-radius: 0;
+    }
+    
+    .card-header {
+        padding: 15px 16px;
+        border-radius: 0;
+        background-color: #f6f6f6;
+        
+        h5 {
+            margin: 0;
+            
+            button {
+                display: block;
+                width: 100%;
+                padding: 0;
+                border: 0;
+                font-weight: 700;
+                color: rgba(0,0,0,.87);
+                text-align: left;
+                white-space: normal;
+                
+                &:hover,
+                &:focus,
+                &:active,
+                &:hover:active {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+    .card-body {
+        p {
+            color: #616161;
+            
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+
+.accordion {
+    > .card {
+        &:not(:first-child) {
+            border-top: 0;
+        }   
+    }
+}
+
+.collapse.show {
+    .card-body {
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+}
+
+
+.tab-table .table td, .table th {
+    border-bottom: 1px solid #dee2e6;
+}
+.tab-table .table-td{
+    border-top: none;
+}
+
+
+/*......................................................... roles (vertical 3tab) .........................................................*/
+
+
+.tile
+{
+  width:100%;
+  margin:30px auto;
+}
+#tile-1 .tab-pane
+{
+  padding:15px;
+}
+#tile-1 .nav-tabs
+{
+  position:relative;
+  border:none!important;
+  background-color:#fff;
+/*   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); */
+  border-radius:6px;
+}
+#tile-1 .nav-tabs li
+{
+  margin:0px!important;
+}
+#tile-1 .nav-tabs li a
+{
+  position:relative;
+  margin-right:0px!important;
+  padding: 20px 40px!important;
+  font-size:16px;
+  border:none!important;
+  color:#333;
+}
+/*
+#tile-1 .nav-tabs a:hover
+{
+  background-color:#fff!important;
+  border:none;
+}
+*/
+#tile-1 .slider
+{
+  display:inline-block;
+  width:30px;
+  height:4px;
+  border-radius:3px;
+  background-color:#0070AD;
+  position:absolute;
+  z-index:1200;
+  bottom:0;
+  transition:all .4s linear;
+  
+}
+#tile-1 .nav-tabs .active
+{
+  background-color:transparent!important;
+  border:none!important;
+  color:#0070AD!important;
+}
+
+.side_tab{
+    padding-top: 15px;
+}
+
+
+
+/*.............................   my   .........................................................*/
+
+.nav-journey{
+    width: 200px;
+    text-align: center;
+    border: 1px solid #0070AD;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff;
+    font-weight: 600;
+}
+
+
+
+a {
+    color: #0070AD;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.card-4 a{
+    color: black;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tab-2{
+    padding: 15px;
+}
+.ul-tab{
+    margin-top: 0px;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1201;
+}
+
+.acd .card{
+    height: auto;
+}
+
+.card-header{
+    border: none;
+    background-color: #0070AD;
+    padding: 0 1.25rem;
+}
+
+.card-header .btn {
+    font-weight: 400;
+    color: #fff;
+    padding: 0rem 0rem;
+}
+
+.card-header h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .52rem .75rem;
+    margin-bottom: 0px;
+}
+
+.card-header h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .52rem .75rem;
+}
+
+.card-header h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .75rem .75rem;
+}
+
+.card-header h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: .75rem .75rem;
+}
+
+.card-btn{
+    background-color: #0070ad;
+    border-radius: 80px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.tab-2{
+    position: sticky;
+}
+
+.fa-angle-down{
+    float: right;
+}
+
+.navbar-nav a{
+    font-size: 1rem;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #007bff;
+}
+.dropdown-menu a:hover {
+    background-color: #12abdb;
+    color: #fff !important;
+}
+.content-bottom-pdf .row{
+    width:100%;
+}
+
+/*................................................. horizontal tab in collapse tab  ............................ .*/
+
+.fade.show {
+    opacity: 1;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* --------------------  Contact Page   ------------------------------------------------------------------------------- */
+.contact-page-header{
+    position: relative;
+    background-color: #0070AD;
+} 
+.contact-page .row{
+    margin: 0px;
+}
+.middle-box .col-md-6{
+    padding: 0px;
+}
+.contact-page-header .contact-h1{
+    top: 5px;
+    font-size: 40px;
+}
+
+.contact-page-header .contact-p{
+    top: 55px;
+}
+
+
+/*
+.middle-box{
+}
+*/
+.left{
+    background-color: #21b9e4;
+    height: 500px;
+    padding-top: 20px;
+}
+.right{
+    background-color: #fff;
+    height: 500px;
+}
+.contact-bg-row{
+    position: absolute;
+    top: 15px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+.col-xxx{
+    height: 500px;
+    margin-top: -8%;
+    padding: 0px;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.l-d{
+    color: #0173af;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .col-xxx {
+    margin-top: -4%;
+  }
+    .contact-bg-row h1{
+        font-size: 1.5rem;
+    }
+    .contact-bg-row h6{
+        font-size: .7rem;
+    }
+    .contact-page-header img{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 770px) and (min-width: 500px) {
+  .col-xxx {
+    margin-top: -4%;
+  }
+  .contact-bg-row h1{
+        font-size: 2rem;
+    }
+    .contact-bg-row h6{
+        font-size: .85rem;
+    }
+    .contact-page-header img{
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 770px) {
+  .col-xxx {
+    margin-top: -5%;
+  }
+}
+
+#nav-about-tab{
+    display: none;
+}
+#nav-about-acdn-tab{
+    display: none;
+}

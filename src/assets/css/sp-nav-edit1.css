@@ -1,0 +1,54 @@
+﻿#s4-ribbonrow, .ms-cui-topBar2, .s4-notdlg, .s4-pr s4-ribbonrowhidetitle, .s4-notdlg noindex, #ms-cui-ribbonTopBars, #s4-titlerow, #s4-pr s4-notdlg s4-titlerowhidetitle, #s4-leftpanel-content {display:none !important;}
+  
+    .s4-ca {
+margin-left:0px !important;
+margin-right:0px !important;
+}
+.ms-core-navigation {
+display:none;
+}
+.ms-rtestate-field {
+    margin-top: -50px !important;
+   }
+.ms-core-pageTitle{
+display:none;
+}
+.ms-siteicon-a{
+    display: none;
+}
+
+#s4-ribbonrow{
+    display: none;
+}
+
+.s4-titlerow{
+    display:none !important;
+}
+#contentBox {
+margin-left:0;
+}
+p{
+    display:none !important;
+  }
+  #s4-bodyContainer {
+    padding-bottom: 0px; 
+}  
+div.article, div.welcome {
+    padding: 0px 0px; 
+}
+.ms-rtestate-field {
+    margin-top: 0px !important;
+}
+div.ms-webpart-cell-vertical-inline-table {
+   
+    margin-bottom: -20px;
+}
+.ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2 {
+ 
+    color: white;
+}
+
+#contentRow {
+    padding-top: 0px;
+}
+

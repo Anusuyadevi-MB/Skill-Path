@@ -1,0 +1,101 @@
+<div class="row">
+  <div class="col-lg-3">
+    <div class="skill-header">Proficiency</div>
+    <div class="prof-expert">
+      <strong>Expert</strong>
+    </div>
+    <div class="prof-intermediate">
+      <strong>Intermediate</strong>
+    </div>
+    <div class="prof-beginner">
+      <strong>Beginner</strong>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="skill-header">Apps Roles</div>
+    <div class="apps-role prof-expert roles">
+      <ul>
+        <li>
+          <a routerLink="/roles" [queryParams]="{ role: 'AWS-DevOps-Expert' }">AWS DevOps Expert</a>
+        </li>
+        <li>
+          <a routerLink="/roles" [queryParams]="{ role:'AWS-Solution-Architect-Apps'}">AWS Solution Architect - Apps</a>
+        </li>
+      </ul>
+    </div>
+    <div class="apps-role prof-intermediate roles">
+      <ul>
+        <li>
+          <a routerLink="/roles" [queryParams]="{ role:'Cloud-Full-Stack-Developer'}">Cloud Full Stack Developer - Apps (AWS)</a>
+        </li>
+      </ul>
+    </div>
+    <div class="apps-role prof-beginner roles">
+      <ul>
+        <li>
+          <a routerLink="/roles" [queryParams]="{role:'Developer-Apps'}">Developer - Apps (AWS)</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="skill-header">Infra Roles</div>
+    <div class="infra-role prof-expert roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-DevOps-Expert-Infra'}">
+          <li>AWS DevOps Expert</li>
+        </a>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-Solution-Architect-Infra'}">
+          <li>AWS Solution Architect - Infra</li>
+        </a>
+      </ul>
+    </div>
+    <div class="infra-role prof-intermediate roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-SysOps-Lead'}">
+          <li>AWS Cloud SysOps Lead</li>
+        </a>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-DevOps-Analyst'}">
+          <li>AWS DevOps Analyst</li>
+        </a>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-Architect'}">
+          <li>AWS Cloud Architect</li>
+        </a>
+      </ul>
+    </div>
+    <div class="infra-role prof-beginner roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-Engineer'}">
+          <li>AWS Cloud Engineer</li>
+        </a>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="skill-header">Data Roles</div>
+    <div class="data-role prof-expert roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'Cloud-Data-Scientist'}">
+          <li>Cloud Data Scientist/Expert- Apps (AWS)</li>
+        </a>
+        <a routerLink="/roles" [queryParams]="{role:'AWS-Data-Solution-Architect'}">
+          <li>AWS Data Solution Architect</li>
+        </a>
+      </ul>
+    </div>
+    <div class="data-role prof-intermediate roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'Senior-Data-Engineer'}">
+          <li>Senior Data Engineer / Data Engineering Lead</li>
+        </a>
+      </ul>
+    </div>
+    <div class="data-role prof-beginner roles">
+      <ul>
+        <a routerLink="/roles" [queryParams]="{role:'Data-Engineer'}">
+          <li>Data Engineer</li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>

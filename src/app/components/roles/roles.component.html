@@ -1,0 +1,1465 @@
+<div class="row">
+  <div class="col-md-4">
+    <!-- Accordion for Roles -->
+    <div class="card">
+      <h5 class="mb-0"> Apps Roles </h5>
+      <div id="collapseAppRoles" class="collapse show">
+        <div class="card-body">
+          <div class="nav flex-column nav-pills" id="collapseAppRoles" role="tablist" aria-orientation="vertical">
+            <a routerLink="/roles" [queryParams]="{role: 'AWS-DevOps-Expert'}" class="nav-link">AWS DevOps Expert</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Solution-Architect-Apps'}" class="nav-link"> AWS Solution Architect - Apps </a>
+            <a routerLink="/roles" [queryParams]="{role:'Cloud-Full-Stack-Developer'}" class="nav-link"> Cloud Full Stack Developer - Apps (AWS) </a>
+            <a routerLink="/roles" [queryParams]="{role:'Developer-Apps'}" class="nav-link"> Developer - Apps (AWS) </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h5 class="mb-0"> Infra Roles </h5>
+      <div id="collapseInfraRoles" class="collapse show">
+        <div class="card-body">
+          <div class="nav flex-column nav-pills" id="collapseInfraRoles" role="tablist" aria-orientation="vertical">
+            <a routerLink="/roles" [queryParams]="{role:'AWS-DevOps-Expert-Infra'}">AWS DevOps Expert</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Solution-Architect-Infra'}" class="nav-link">AWS Solution Architect-Infra</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-SysOps-Lead'}" class="nav-link">AWS Cloud SysOps Lead</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-DevOps-Analyst'}" class="nav-link">AWS DevOps Analyst</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-Architect'}" class="nav-link">AWS Cloud Architect</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Cloud-Engineer'}" class="nav-link">AWS Cloud Engineer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h5 class="mb-0"> Data Roles </h5>
+      <div id="collapseDataRoles" class="collapse show">
+        <div class="card-body">
+          <div class="nav flex-column nav-pills" id="collapseDataRoles" role="tablist" aria-orientation="vertical">
+            <a routerLink="/roles" [queryParams]="{role:'Cloud-Data-Scientist'}" class="nav-link">Cloud Data Scientist/Expert-Apps(AWS)</a>
+            <a routerLink="/roles" [queryParams]="{role:'AWS-Data-Solution-Architect'}" class="nav-link">AWS Data Solution Architect</a>
+            <a routerLink="/roles" [queryParams]="{role:'Senior-Data-Engineer'}" class="nav-link">Senior Data Engineer / Data Engineering Lead</a>
+            <a routerLink="/roles" [queryParams]="{role:'Data-Engineer'}" class="nav-link">Data Engineer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Role Content Section -->
+  <div class="col-md-8 pt-5" *ngIf="selectedRole">
+    <!-- Content for AWS DevOps Expert -->
+    <div *ngIf="selectedRole === 'AWS-DevOps-Expert'">
+      <h3>AWS DevOps Expert</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B,d</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Solution-Architect-Apps'">
+      <h3>AWS-Solution-Architect-Apps</h3>
+      <div class="card-body">
+        <div class="table-heading pb-3">
+          <b>
+            <span class="text-muted">Apps Roles</span> | Azure DevOps Expert </b>
+        </div>
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B,e</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'Cloud-Full-Stack-Developer'">
+      <h3>Cloud-Full-Stack-Developer</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B, c</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'Developer-Apps'">
+      <h3>Developer-Apps</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://capgemini.sharepoint.com/sites/SkillFramework/Pages/Java.aspx">
+            <div class="btn tech-btn bg-primary text-white ml-3 mb-3">Express Interest</div>
+          </a>
+        </div>
+        <div class="col-md-6 pr-5">
+          <div class="skill-header-inner pb-2">
+            <b>Skill Framework Artefacts</b>
+          </div>
+          <table class="table pr-3">
+            <thead>
+              <tr>
+                <th scope="col">File Name</th>
+                <th scope="col">Download</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <i class="float-left fas fa-file-pdf" style="color: red;"></i>
+                  <small>
+                    <b>
+                      <a href="https://capgemini.sharepoint.com/sites/SkillFramework/Shared%20Documents/Azure/20200115%20AZURE%20Skill%20Path-Roles.pdf" target="_blank">Azure SkillPath-Roles.pdf</a>
+                    </b>
+                  </small>
+                </td>
+                <td>
+                  <a href="https://capgemini.sharepoint.com/sites/SkillFramework/Shared%20Documents/Azure/20200115%20AZURE%20Skill%20Path-Roles.pdf" target="_blank">
+                    <i class="text-primary fas fa-download"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-DevOps-Expert-Infra'">
+      <h3>AWS DevOps Expert</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>80+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B,e</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Solution-Architect-Infra'">
+      <h3>AWS-Solution-Architect-Infra</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B, c</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Cloud-SysOps-Lead'">
+      <h3>AWS-Cloud-SysOps-Lead</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>60+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B, c</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-DevOps-Analyst'">
+      <h3>AWS-DevOps-Analyst</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>90+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B,d</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Cloud-Architect'">
+      <h3>AWS-Cloud-Architect</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>100+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B,e</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Cloud-Engineer'">
+      <h3>AWS-Cloud-Engineer</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>50+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A, B</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'Cloud-Data-Scientist'">
+      <h3>Cloud-Data-Scientist</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>90+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>Abcd, B,d</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'AWS-Data-Solution-Architect'">
+      <h3>AWS-Data-Solution-Architect</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>90+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>A11, B,d</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'Senior-Data-Engineer'">
+      <h3>Senior-Data-Engineer</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>90+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>Abc, B,d</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedRole === 'Data-Engineer'">
+      <h3>Data-Engineer</h3>
+      <div class="card-body">
+        <div class="tab-table table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <!--      <th scope="col">#</th>-->
+                <td class="table-td">
+                  <b>Proficiency</b>
+                </td>
+                <td class="table-td">Beginner</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!--      <th scope="row">1</th>-->
+                <td>
+                  <b>Course Duration:</b>
+                </td>
+                <td>70+ hours</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">2</th>-->
+                <td>
+                  <b>Experience:</b>
+                </td>
+                <td>
+                  <ol>
+                    <li>Trained in these skills</li>
+                    <li>Conceptual knowledge across all</li>
+                    <li>0-2 years hands-on experience</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Employee Grade</b>
+                </td>
+                <td>Aaa, B</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Professional Certification:</b>
+                </td>
+                <td>AZ 900 - Azure Foundation</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>Internal Certification:</b>
+                  <br>(Capgemini Standard Certification)
+                </td>
+                <td>Not aplicable</td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Mandatory skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Programming Languages - e.g. C#, .net, .Net Core etc.</li>
+                    <li>JavaScript-Frameworks - e.g. Angular,React etc.</li>
+                    <li>Database Knowledge - e.g. SQL/NoSQL <br>RESTAPI </li>
+                    <li>Cloud Computing with the knowledge of any Public Cloud - e.e. Azure/AWS/Google</li>
+                    <li>Should be certified on Professional Certificate</li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <!--      <th scope="row">3</th>-->
+                <td>
+                  <b>What will you learn?</b>
+                  <br>(Good to Have Skills)
+                </td>
+                <td>
+                  <ol>
+                    <li>Introduction to Cloud Migrations - Methodologies and tools</li>
+                    <li>TDD</li>
+                    <li>Microservices fundamentals</li>
+                    <li>Development Tools and IDE</li>
+                    <li>Knowledge of DevOps Tools</li>
+                    <li>Strong understanding of Agile development</li>
+                    <li>Understanding of software testing and optimization methodologies</li>
+                    <li>Creating rich documentaion for software solutions</li>
+                    <li>Should be certified with internal Certificates if any</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
